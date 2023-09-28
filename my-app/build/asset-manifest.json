@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5031d96f.css",
+    "main.js": "/static/js/main.ab0fcf2b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/image4.jpg": "/static/media/image4.8c512e34253567b39634.jpg",
+    "static/media/image3.jpg": "/static/media/image3.f43dfb0136e587aba050.jpg",
+    "static/media/image8.jpg": "/static/media/image8.b6ddd8586150c9529855.jpg",
+    "static/media/image5.jpg": "/static/media/image5.6c0840feecd05b92cddb.jpg",
+    "static/media/image9.jpg": "/static/media/image9.5a632cffee83d75236ca.jpg",
+    "static/media/image6.jpg": "/static/media/image6.36cdf7db9ef55b47c4fe.jpg",
+    "static/media/image7.jpg": "/static/media/image7.09c73894f03595d46ba0.jpg",
+    "static/media/image1.jpg": "/static/media/image1.c787ce8dd7bf2c104e1e.jpg",
+    "static/media/image11.jpg": "/static/media/image11.9bf2d8bc7aabbbef3a3d.jpg",
+    "static/media/image2.jpg": "/static/media/image2.eda3ca0d2a81b8b8824e.jpg",
+    "static/media/Coleen.JPG": "/static/media/Coleen.d2b954131106f8f67786.JPG",
+    "static/media/image12.jpg": "/static/media/image12.477672ada4e1f50a67fb.jpg",
+    "static/media/image10.jpg": "/static/media/image10.116d625c2f1bf6db99cc.jpg",
+    "static/media/food-card.jpg": "/static/media/food-card.e8683f94daa362da9d24.jpg",
+    "static/media/pineapple-icon.png": "/static/media/pineapple-icon.c72b0c5d66295553e4f0.png",
+    "static/media/carrot-icon.png": "/static/media/carrot-icon.3527d15a79a03aedbf04.png",
+    "static/media/banana-icon.png": "/static/media/banana-icon.dc12a5aa4a131bae01f9.png",
+    "index.html": "/index.html",
+    "main.5031d96f.css.map": "/static/css/main.5031d96f.css.map",
+    "main.ab0fcf2b.js.map": "/static/js/main.ab0fcf2b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5031d96f.css",
+    "static/js/main.ab0fcf2b.js"
+  ]
+}
