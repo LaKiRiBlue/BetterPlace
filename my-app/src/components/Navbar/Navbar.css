@@ -1,0 +1,19 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    
+    gap: 20px;
+    z-index: 1; /* Ensures the Navbar appears above other elements */
+  }
+  
+  .navbar a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #66bb6a;
+  }

@@ -1,0 +1,61 @@
+.your-page-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  /* Page Title */
+  .your-page-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Page Content */
+  .your-page-container p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Profile Actions Section */
+  .profile-actions {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Profile Button */
+  .profile-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: #66bb6a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Profile Button Hover Effect */
+  .profile-button:hover {
+    background-color: #43a047;
+  }
+  
+  /* Responsive Design for Small Screens (e.g., Smartphones) */
+  @media screen and (max-width: 767px) {
+    .your-page-container {
+      margin: 10px;
+    }
+  
+    /* Adjust styles for smaller screens as needed */
+  }
+  
+  /* Media query for tablets (e.g., iPads) */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Add specific styles for tablets if needed */
+  }
+  

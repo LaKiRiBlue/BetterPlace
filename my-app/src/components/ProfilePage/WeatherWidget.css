@@ -1,0 +1,23 @@
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: white;
+  background-size: cover;
+  color: black;
+  padding: 0 20px;
+}
+
+/* .profile-box {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+
+} */
+

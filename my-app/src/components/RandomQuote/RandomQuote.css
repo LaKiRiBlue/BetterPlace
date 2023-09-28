@@ -1,0 +1,36 @@
+/* RandomQuote.css */
+
+.random-container {
+  width: fit-content;
+
+  display: flex;
+  
+  
+}
+
+.random-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    /* margin-left: 790px; */
+    /* margin-top: 100px; Add some margin to separate it from other content */
+  }
+  
+  .random-quote h2 {
+    font-size: 1.5rem;
+    color: #66bb6a;
+    margin-bottom: 20px; /* Add margin to separate it from the quote text */
+  }
+  
+  .random-quote p {
+    font-size: 18px;
+  }
+  
