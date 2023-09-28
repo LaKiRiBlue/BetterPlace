@@ -96,42 +96,123 @@ export const CategoryPage = () => {
             imageSrc: "image2.jpg",
         },
     ];
+    const recipes = [
+        {
+            id: 1,
+            title: "Recipe 1",
+            link: "https://www.example.com/recipe1",
+        },
+        {
+            id: 2,
+            title: "Recipe 2",
+            link: "https://www.example.com/recipe2",
+        },
+        {
+            id: 1,
+            title: "Recipe 1",
+            link: "https://www.example.com/recipe1",
+        },
+        {
+            id: 1,
+            title: "Recipe 1",
+            link: "https://www.example.com/recipe1",
+        },
+        {
+            id: 1,
+            title: "Recipe 1",
+            link: "https://www.example.com/recipe1",
+        },
+        {
+            id: 1,
+            title: "Recipe 1",
+            link: "https://www.example.com/recipe1",
+        },
+        {
+            id: 1,
+            title: "Recipe 1",
+            link: "https://www.example.com/recipe1",
+        },
+        {
+            id: 1,
+            title: "Recipe 1",
+            link: "https://www.example.com/recipe1",
+        },
+        {
+            id: 1,
+            title: "Recipe 1",
+            link: "https://www.example.com/recipe1",
+        },
+        {
+            id: 1,
+            title: "Recipe 1",
+            link: "https://www.example.com/recipe1",
+        },
+        {
+            id: 1,
+            title: "Recipe 1",
+            link: "https://www.example.com/recipe1",
+        },
+        {
+            id: 1,
+            title: "Recipe 1",
+            link: "https://www.example.com/recipe1",
+        },
+        // Add more recipes as needed
+    ];
 
     return (
-        
         <>
-        <Navbar />
+            <Navbar />
             <div className="category-box">
-            
-            <div className="category-card-container">
-                <h1 className="category-title">Top rated videos</h1>
-                <p>"You don't need a silver fork to eat good food." Paul Prudhomme</p>
-                <div className="category-cards">
-                    {categories.map((category) => (
-                        <div className="category-card" key={category.id}>
-                            
-                            <h2>{category.title}</h2>
-                            <p>{category.description}</p>
-                            <a
-                                href={category.youtubeLink}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="category-button"
-                            >
-                                Watch on YouTube
-                            </a>
-                        </div>
-                    ))}
-                </div>
-                {/* Link to another route */}
-                <Link to="/cooking-tips" className="profile-button">
-            Go to Cooking Tips Page
-          </Link>
                 
+                <div className="category-card-container">
+                    
+                    <h1 className="category-title">Top rated recipes</h1>
+                    <p>"You don't need a silver fork to eat good food." Paul Prudhomme</p>
+                    
+                    <div className="category-cards">
+                        
+                        
+                        {categories.map((category) => (
+                            
+                            <div className="category-card" key={category.id}>
+                                <h2>{category.title}</h2>
+                                <p>{category.description}</p>
+                                <a
+                                    href={category.youtubeLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="category-button"
+                                >
+                                    Watch on YouTube
+                                </a>
+                            </div>
+                        ))}
+                        
+                    </div>
+                    <div className="recipe-cards">
+                        {recipes.map((recipe) => (
+                            <div className="recipe-card" key={recipe.id}>
+                                <h2>{recipe.title}</h2>
+                                <a
+                                    href={recipe.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="recipe-button"
+                                >
+                                    View Recipe
+                                </a>
+                            </div>
+                        ))}
+                    </div>
+                    {/* Link to another route */}
+                    <Link to="/cooking-tips" className="profile-button">
+                        Go to Cooking Tips Page
+                    </Link>
+                    
+                </div>
             </div>
-        <Footer />
-            
-        </div>
+            <Footer />
         </>
     );
 };

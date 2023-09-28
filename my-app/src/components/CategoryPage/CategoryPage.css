@@ -67,8 +67,9 @@
 
 .category-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
+  width: 250px;
 }
 
 .category-card {
@@ -109,6 +110,52 @@
   margin: 0 10px 20px;
   color: #fff;
 }
+/* Add this CSS to your CategoryPage.css */
+
+.recipe-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: -2304px;
+  margin-bottom: 930px;
+}
+
+.recipe-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  width: calc(33.33% - 10px); /* Adjust the card width and gap as needed */
+  height: 190px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.recipe-card h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.recipe-button {
+  background-color: #66bb6a;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.recipe-button:hover {
+  background-color: #4a9a4d;
+}
+
 
 .category-button {
   color: #fff;
