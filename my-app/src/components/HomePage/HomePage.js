@@ -63,7 +63,7 @@ const HomePage = () => {
             <Link to="/category" className="home-button">Recipes</Link>
             <Link to="/diary" className="home-button">Diary</Link>
             <Link to="/login" className="home-button">Login</Link>
-            <Link to="/register" className="home-button">Register</Link>
+            
           </div>
           <Link to="/cooking-tips" className="profile-button">
             Go to Cooking Tips Page
