@@ -1,23 +1,36 @@
 .your-page-container {
     padding: 20px;
-    background-color: white;
+    background-image: url("forks.jpg");
+    background-size: cover;
+    color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 120px;
   }
   
   /* Page Title */
   .your-page-container h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #333;
+    color: #66bb6a;
+    margin-bottom: 20px;
+  }
+.tips-card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #66bb6a;
     margin-bottom: 20px;
   }
   
   /* Page Content */
   .your-page-container p {
     font-size: 1.2rem;
-    color: #666;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 black, /* top-left */
+    1px -1px 0 black, /* top-right */
+    -1px 1px 0 black, /* bottom-left */
+    1px 1px 0 black; /* bottom-right */
     margin-bottom: 30px;
   }
   

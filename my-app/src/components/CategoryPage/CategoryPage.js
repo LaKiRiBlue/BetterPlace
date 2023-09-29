@@ -98,123 +98,137 @@ export const CategoryPage = () => {
     ];
     const recipes = [
         {
+            
             id: 1,
-            title: "Recipe 1",
-            link: "https://www.example.com/recipe1",
+            title: "Cinnamon-Apple Babka",
+            imageSrc: "images/cinnamon-apple-babka.jpg",
+            link: "https://www.foodandwine.com/cinnamon-apple-babka-6826382",
         },
         {
             id: 2,
-            title: "Recipe 2",
-            link: "https://www.example.com/recipe2",
+            title: "Tomato and Goat Cheese Tart",
+            imageSrc: "images/tomato-goatcheese-tart.jpg",
+            link: "https://www.foodandwine.com/recipes/tomato-and-goat-cheese-tart",
         },
         {
-            id: 1,
-            title: "Recipe 1",
-            link: "https://www.example.com/recipe1",
+            id: 3,
+            title: "Cinnamon Roses",
+            imageSrc: "images/cinnamon-roses.jpg",
+            link: "https://www.foodandwine.com/recipes/cinnamon-roses",
         },
         {
-            id: 1,
-            title: "Recipe 1",
-            link: "https://www.example.com/recipe1",
+            id: 4,
+            title: "Carnitas with Green Mojo",
+            imageSrc: "images/carnitas-green-mojo.jpg",
+            link: "https://www.foodandwine.com/recipes/turkey-carnitas",
         },
         {
-            id: 1,
-            title: "Recipe 1",
-            link: "https://www.example.com/recipe1",
+            id: 5,
+            title: "Dragon Roll",
+            imageSrc: "images/dragon-roll.jpg",
+            link: "https://www.foodandwine.com/dragon-roll-7254587",
         },
         {
-            id: 1,
-            title: "Recipe 1",
-            link: "https://www.example.com/recipe1",
+            id: 6,
+            title: "Silky Zucchini Soup",
+            imageSrc: "images/silky-zucchini-soup.jpg",
+            link: "https://www.foodandwine.com/recipes/silky-zucchini-soup",
         },
         {
-            id: 1,
-            title: "Recipe 1",
-            link: "https://www.example.com/recipe1",
+            id: 7,
+            title: "Piadina (Italian Flatbread)",
+            imageSrc: "images/piadina-italian-flatbread.jpg",
+            link: "https://www.foodandwine.com/recipes/piadina-italian-flatbread",
         },
         {
-            id: 1,
-            title: "Recipe 1",
-            link: "https://www.example.com/recipe1",
+            id: 8,
+            title: "Carrot Cake Cupcakes",
+            imageSrc: "images/carrot-cake-cupcakes.jpg",
+            link: "https://www.foodandwine.com/vegan-carrot-cake-cupcakes-7971640",
         },
         {
-            id: 1,
-            title: "Recipe 1",
-            link: "https://www.example.com/recipe1",
+            id: 9,
+            title: "Matcha Mochi",
+            imageSrc: "images/matcha-mochi.jpg",
+            link: "https://www.foodandwine.com/recipes/matcha-mochi",
         },
         {
-            id: 1,
-            title: "Recipe 1",
-            link: "https://www.example.com/recipe1",
+            id: 10,
+            title: "Caramelized Onion Dip",
+            imageSrc: "images/caramelized-onion-dip.jpg",
+            link: "https://www.foodandwine.com/recipes/caramelized-onion-dip",
         },
         {
-            id: 1,
-            title: "Recipe 1",
-            link: "https://www.example.com/recipe1",
+            id: 11,
+            title: "Bavarian Pretzels",
+            imageSrc: "images/bavarian-pretzels.jpg",
+            link: "https://www.foodandwine.com/recipes/bavarian-pretzels",
         },
         {
-            id: 1,
-            title: "Recipe 1",
-            link: "https://www.example.com/recipe1",
+            id: 12,
+            title: "Ligurian Olive Oil Cake",
+            imageSrc: "images/ligurian-olive-oil-cake.jpg",
+            link: "https://www.foodandwine.com/recipes/ligurian-olive-oil-cake",
         },
         // Add more recipes as needed
     ];
 
     return (
         <>
-            <Navbar />
-            <div className="category-box">
-                
-                <div className="category-card-container">
-                    
-                    <h1 className="category-title">Top rated recipes</h1>
-                    <p>"You don't need a silver fork to eat good food." Paul Prudhomme</p>
-                    
-                    <div className="category-cards">
-                        
-                        
-                        {categories.map((category) => (
-                            
-                            <div className="category-card" key={category.id}>
-                                <h2>{category.title}</h2>
-                                <p>{category.description}</p>
-                                <a
-                                    href={category.youtubeLink}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="category-button"
-                                >
-                                    Watch on YouTube
-                                </a>
-                            </div>
-                        ))}
-                        
-                    </div>
-                    <div className="recipe-cards">
-                        {recipes.map((recipe) => (
-                            <div className="recipe-card" key={recipe.id}>
-                                <h2>{recipe.title}</h2>
-                                <a
-                                    href={recipe.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="recipe-button"
-                                >
-                                    View Recipe
-                                </a>
-                            </div>
-                        ))}
-                    </div>
-                    {/* Link to another route */}
-                    <Link to="/cooking-tips" className="profile-button">
-                        Go to Cooking Tips Page
-                    </Link>
-                    
-                </div>
+          <Navbar />
+          <div className="category-box">
+            <div className="category-card-container">
+              <h1 className="category-title">Top rated recipes</h1>
+              <p>"You don't need a silver fork to eat good food." Paul Prudhomme</p>
+    
+              <div className="category-cards">
+                {categories.map((category) => (
+                  <div className="category-card" key={category.id}>
+                    <h2>{category.title}</h2>
+                    <p>{category.description}</p>
+                    <a
+                      href={category.youtubeLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="category-button"
+                    >
+                      Watch on YouTube
+                    </a>
+                  </div>
+                ))}
+              </div>
+    
+              <div className="recipe-cards">
+                {recipes.map((recipe) => (
+                  <div
+                    className={`recipe-card recipe-card-${recipe.id}`}
+                    key={recipe.id}
+                    style={{ backgroundImage: `url(${recipe.imageSrc})` }}
+                  >
+                    <h2>{recipe.title}</h2>
+                    {/* You can remove the <img> element since background images are being used */}
+                    <p>{recipe.description}</p>
+                    <a
+                      href={recipe.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="recipe-button"
+                    >
+                      View Recipe
+                    </a>
+                  </div>
+                ))}
+              </div>
+    
+              {/* Link to another route */}
+              <Link to="/cooking-tips" className="profile-button">
+                Go to Cooking Tips Page
+              </Link>
             </div>
-            <Footer />
+          </div>
+          <Footer />
         </>
-    );
-};
-
-export default CategoryPage;
+      );
+    };
+    
+    export default CategoryPage;
