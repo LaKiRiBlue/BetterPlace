@@ -203,7 +203,7 @@ export const CategoryPage = () => {
                   <div
                     className={`recipe-card recipe-card-${recipe.id}`}
                     key={recipe.id}
-                    style={{ backgroundImage: `url(${recipe.imageSrc})` }}
+                    // style={{ backgroundImage: `url(${recipe.imageSrc})` }}
                   >
                     <h2>{recipe.title}</h2>
                     {/* You can remove the <img> element since background images are being used */}

@@ -18,8 +18,9 @@
   justify-content: flex-start;
   align-items: flex-start;
   min-height: 100vh;
-  background-color: white;
+  background-image: url("chilli-background.jpg");
   background-size: cover;
+  background-position: center;
   color: black;
   padding: 20px; /* Added padding to separate components */
 }
@@ -68,6 +69,7 @@
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 .profile-stats div {
@@ -146,4 +148,9 @@
   font-size: 14px;
   margin-top: 5px;
 }
-
+.profile-stats span {
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: bold;
+  
+}
