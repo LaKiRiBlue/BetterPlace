@@ -45,15 +45,15 @@ const ProfilePage = () => {
             </div>
             <div className="profile-stats">
               <div className="profile-followers">
-                <span>Followers: </span>
-                <span>500</span>
+                <span>Lives in: </span>
+                <span>Gotham, USA</span>
               </div>
               <div className="profile-following">
-                <span>Following: </span>
-                <span>250</span>
+                <span>Recipes: </span>
+                <span>25</span>
               </div>
               <div className="profile-repos">
-                <span>Repositories: </span>
+                <span>Favorite: </span>
                 <span>20</span>
               </div>
             </div>

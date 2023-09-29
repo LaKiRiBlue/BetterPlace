@@ -5,14 +5,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:white;
+  background-image: url("chilli-background.jpg");
   background-size: cover;
   background-position: center;
 
 }
 
 .diary-page {
-  background-color: lightgray;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -52,7 +52,7 @@ p {
 }
 
 label {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #66bb6a;
   text-shadow: 1px 1px 1px black;
 }
