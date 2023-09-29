@@ -124,7 +124,11 @@
 }
 
 .recipe-card {
-  background-color: #fff;
+  /* background-image: url("images/cinnamon-apple-babka.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat; */
+
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   padding: 10px;
@@ -135,9 +139,95 @@
   flex-direction: column;
   justify-content: space-between;
 }
+/*make syling for recipe-card id 1*/
+.recipe-card-1 {
+  background-image: url("images/cinnamon-apple-babka.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.recipe-card-2 {
+  background-image: url("images/tomato-goatcheese-tart.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.recipe-card-3 {
+  background-image: url("images/cinnamon-roses.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.recipe-card-4 {
+  background-image: url("images/carnitas-green-mojo.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.recipe-card-5 {
+  background-image: url("images/dragon-roll.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.recipe-card-6 {
+  background-image: url("images/silky-zucchini-soup.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.recipe-card-7 {
+  background-image: url("images/piadina-italian-flatbread.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.recipe-card-8 {
+  background-image: url("images/carrot-cake-cupcakes.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.recipe-card-9 {
+  background-image: url("images/matcha-mochi.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.recipe-card-10 {
+  background-image: url("images/caramelized-onion-dip.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.recipe-card-11 {
+  background-image: url("images/bavarian-pretzels.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.recipe-card-12 {
+  background-image: url("images/ligurian-olive-oil-cake.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
 
 .recipe-card h2 {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: bold;
   margin: 0;
 }
