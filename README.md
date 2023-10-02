@@ -1,2 +1,0 @@
-# Better-place
-# BetterPlace
